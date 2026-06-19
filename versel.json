@@ -1,21 +1,26 @@
 {
   "builds": [
     {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
+      "src": "backend/your_project_name/wsgi.py",
+      "use": "@vercel/python",
       "config": {
-        "distDir": "build"
+        "maxLambdaSize": "15mb",
+        "runtime": "python3.9"
       }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/frontend/build/$1"
+      "src": "/admin/(.*)",
+      "dest": "backend/your_project_name/wsgi.py"
     },
     {
-      "src": "/",
-      "dest": "/frontend/build/index.html"
+      "src": "/api/(.*)",
+      "dest": "backend/your_project_name/wsgi.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "backend/your_project_name/wsgi.py"
     }
   ]
 }
