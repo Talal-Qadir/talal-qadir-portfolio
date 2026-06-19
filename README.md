@@ -1,10 +1,9 @@
 # 🚀 Talal Qadir Portfolio (Full Stack)
 
 This is a full-stack portfolio web application built using **Django (Backend API)** and **React (Frontend with Vite)**. It showcases personal projects, skills, and includes a contact system using REST APIs.
-## My Project Screenshot
 
-![Portfolio Screenshot](assets/images/portfolio.png)
----
+<img width="1349" height="663" alt="image" src="https://github.com/user-attachments/assets/4cf6ad31-ea28-45c8-a3c6-467072d0f592" />
+
 
 ## ⚙️ Tech Stack
 
