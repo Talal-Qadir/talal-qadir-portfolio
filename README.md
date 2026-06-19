@@ -2,7 +2,11 @@
 
 This is a full-stack portfolio web application built using **Django (Backend API)** and **React (Frontend with Vite)**. It showcases personal projects, skills, and includes a contact system using REST APIs.
 
-<img width="1349" height="663" alt="image" src="https://github.com/user-attachments/assets/4cf6ad31-ea28-45c8-a3c6-467072d0f592" />
+<img width="1345" height="637" alt="image" src="https://github.com/user-attachments/assets/950f2eee-9cdc-459d-99d6-1fc8605debce" />
+
+
+<img width="628" height="439" alt="image" src="https://github.com/user-attachments/assets/1a0a3304-6252-4377-8ab2-d706a84a1feb" />
+
 
 
 ## ⚙️ Tech Stack
