@@ -1,14 +1,17 @@
 {
   "builds": [
     {
-      "src": "backend/manage.py",
-      "use": "@vercel/python"
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "frontend/build"
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "backend/manage.py"
+      "dest": "frontend/build/index.html"
     }
   ]
 }
